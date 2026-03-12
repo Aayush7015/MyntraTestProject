@@ -1,5 +1,14 @@
 package com.aayush.MyntraApp;
 
-public class HomePagePom {
+import org.openqa.selenium.WebDriver;
+
+public class HomePagePom  extends Page {
+
+	public HomePagePom(WebDriver driver) {
+		super(driver);
+	}
+	
+	
+	
 
 }
