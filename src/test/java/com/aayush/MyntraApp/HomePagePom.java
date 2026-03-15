@@ -23,7 +23,7 @@ public class HomePagePom  extends Page {
 	@FindBy(xpath = "//div[@id='sizeButtonsContainer']//div[5]")
 	WebElement size;
 	
-	@FindBy(xpath = "//span[@class='pdp-price']")
+	@FindBy(xpath = "//span[contains(@class,'pdp-price')]")
 	WebElement unitPrice;
 	
 	@FindBy(xpath = "//span[@class='myntraweb-sprite pdp-whiteBag sprites-whiteBag pdp-flex pdp-center']")

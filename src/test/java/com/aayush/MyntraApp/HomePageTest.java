@@ -16,12 +16,14 @@ public class HomePageTest  extends BaseTest{
 	  hp.searchingBox();
 	  hp.clickSearchIcon();
 	  hp.clickFirstProduct();
-	  hp.captureUnitPrice();
+
 	  Set<String> windows = driver.getWindowHandles();
-	  for(String w :windows)
+	  for(String w : windows)
 	  {
-		  driver.switchTo().window(w);
+	      driver.switchTo().window(w);
 	  }
+
+	  hp.captureUnitPrice();   // ✅ now element exists
 	  hp.selectSize();
 	  hp.clickAddToBag();	
 	  hp.clickaddToBagIcon();

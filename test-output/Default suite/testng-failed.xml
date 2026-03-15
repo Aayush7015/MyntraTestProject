@@ -8,8 +8,8 @@
           <include name="initReport"/>
           <include name="afterMethod"/>
           <include name="flushReport"/>
-          <include name="UiTest"/>
           <include name="beforeMethod"/>
+          <include name="UiTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
